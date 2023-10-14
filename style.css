@@ -1,0 +1,1299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    
+}
+
+
+header{
+    position: fixed;
+    margin-top: -120px;
+    border: 1px solid whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.header{
+    display: flex;
+    margin: 5px;
+    
+
+}
+
+.header .logo{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.header .logo h1{
+    font-size: 25px;
+    color: orangered;
+}
+.header .logo h1 .td{
+    color: black;
+}
+
+.header .navbar{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    margin-left: 29%;
+    justify-content: space-between;
+}
+
+.header .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    word-spacing: 15px;
+    justify-content: space-between;
+}
+
+.header .navbar ul li {
+    margin: 10px;
+    word-spacing: 15px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.header .navbar ul li:hover{
+    color: orangered;
+}
+
+.header .navbar button{
+    justify-content: center;
+    border: 1px solid orangered;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 4px;
+    width: 100px;
+    color: black;
+    margin-left:80px ;
+    cursor: pointer;
+}
+
+#icon_compte{
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    display: none;
+    margin-left:40px ;
+}
+#user_nom {
+    font-size: 15px;
+    margin: 5px;
+    display: none;
+}
+
+#menu_header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    display: none;
+}
+#menu_header ul {
+    list-style: none;
+    margin: 5px;
+    word-spacing: 15px;
+    justify-content: space-between;
+}
+#menu_header ul li {
+    margin: 10px;
+    word-spacing: 15px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#menu_header button{
+    justify-content: center;
+    border: 1px solid orangered;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 4px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#menu_header_conn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    display: none;
+}
+#menu_header_conn ul {
+    list-style: none;
+    margin: 5px;
+    word-spacing: 15px;
+    justify-content: space-between;
+}
+#menu_header_conn ul li {
+    margin: 10px;
+    word-spacing: 15px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#menu_header_conn button{
+    justify-content: center;
+    border: 1px solid orangered;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 4px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+
+
+#btn_acceuil1{
+    display: none;
+}
+#btn1{
+    display: block;
+}
+
+#btn3{
+    display: none;
+}
+
+#btn4{
+    display: none;
+}
+
+#menu{
+    font-size:30px ;
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+}
+#menu2{
+    font-size:30px ;
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+    margin-left: 250px;
+}
+
+#dashbord{
+    display: none;
+}
+
+.header .navbar img{
+    margin-left: 25px;
+    font-size: 30px;
+    display: none;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header .navbar button:hover{
+    background-color: orangered;
+    border: 1px solid black;
+    color: black;
+}
+
+.rechercher{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 120px;
+}
+.rechercher input{
+    padding: 10px;
+    margin: 5px;
+    border:1px solid whitesmoke;
+    width: 500px;
+    outline: none;
+    border-radius: 15px;
+    font-size: 18px;
+    
+}
+
+.rechercher button{
+    border: 1px solid whitesmoke;
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    margin-left: -161px;
+    padding-top: 12px;
+    
+}
+
+.rechercher button:hover{
+    background-color: black;
+    color: white;
+}
+
+.contenaire{
+    margin: 20px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante */
+  /* Autres styles de conteneur si nécessaire */
+  flex-basis: calc(33.33% - 20px);
+}
+
+
+
+.contenaire .offre{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid skyblue;
+    padding: 3px;
+    height: 450px;
+}
+
+.contenaire .offre img{
+    width: 320px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contenaire div{
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    height: 240px;
+}
+
+.contenaire .offre p{
+    text-align: center;
+    font-size: 15px;
+    justify-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.contenaire .offre span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(9, 9, 10);
+}
+
+#voiroffre{
+    padding: 7px;
+    width: 120px;
+    background-color: skyblue;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 6px;
+    color: white;
+}
+
+#voirplus{
+    padding: 7px;
+    width: 180px;
+    background-color: orangered;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+}
+.voirplus{
+    padding: 7px;
+    width: 180px;
+    background-color: orangered;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+}
+h2{
+    margin: 20px;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 20px;
+}
+.marketing{
+    width: 98%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.marketing p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.communauter{
+    width: 98%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.communauter p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+#com_inscrire{
+    padding: 7px;
+    width: 180px;
+    background-color: orangered;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+}
+
+h5{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.propriete{
+    width: 98%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.propriete p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+#publier{
+    padding: 7px;
+    width: 180px;
+    background-color: orangered;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+}
+
+.foot{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+}
+
+footer{
+    padding: 5px;
+    margin: 5px;
+    width: 98%;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+.foot span{
+    display: inline-block;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.foot p{
+    font-size: 15px;
+    margin: 5px;
+}
+
+
+#copyright{
+    display: inline-block;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: black;
+}
+
+.pub{
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    display: none;
+    margin-top: 110px;
+}
+.pub h1{
+  font-size: 20px;
+}
+
+.pub form{
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.pub form input{
+    display: inline-block;
+    padding: 8px;
+    outline: none;
+    border: 1px solid black;
+    width: 400px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.connexion{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    margin-top: 120px ;
+}
+
+.connexion h1{
+    font-size: 20px;
+    margin: 10px;
+}
+.connexion form{
+    border: 1px solid black;
+    display: inline-block;
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    margin: 15px;
+}
+
+.connexion form input{
+    padding: 8px;
+    display: inline-block;
+    width: 400px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.connexion form p{
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+.connexion #submit{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+}
+
+.inscription{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    margin-top: 120px ;
+}
+
+.inscription h1{
+    font-size: 20px;
+    margin: 10px;
+}
+.inscription form{
+    border: 1px solid black;
+    display: inline-block;
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    margin: 15px;
+}
+
+.inscription form input{
+    padding: 8px;
+    display: inline-block;
+    width: 400px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.inscription form p{
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+.inscription #submit{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+}
+
+.connexion #inscription{
+    cursor: pointer;
+    width: 200px;
+}
+
+.desoffre{
+    display: none;
+    margin-top: 120px;
+}
+
+.desoffres{
+    margin: 5px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desoffre h1{
+    display: inline-block;
+    margin: 25px;
+
+}
+
+.desoffre .desoffres div{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid skyblue;
+    padding: 3px;
+    height: 480px;
+}
+
+.offre1{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid skyblue;
+    padding: 3px;
+    height: 480px;
+}
+
+.offre1 img{
+    width: 370px;
+    margin: 5px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.desoffre .desoffres div img{
+    width: 370px;
+    margin: 5px;
+    border-radius: 10px;
+    height: 200px;
+}
+.desoffres div span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(9, 9, 10);
+}
+
+#voirplus1{
+    padding: 7px;
+    width: 180px;
+    background-color: orangered;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.erreur_pub{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 40px;
+    display: none;
+    margin-top: 120px;
+}
+
+.compte_connecter{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    display: none;
+    margin-top: 120px;
+}
+
+.compte_connecter .user{
+    width: 340px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    margin-left: 35%;
+}
+
+.compte_connecter .user img{
+    margin: 50px;
+    font-size: 100px;
+    width: 200px;
+    border-radius: 55%;
+}
+
+.compte_connecter p{
+    margin: 20px;
+    font-size: 25px;
+    
+}
+#RS_foot_conn a{
+    text-decoration: none;
+}
+
+#RS_foot_conn ion-icon{
+    font-size: 20px;
+    color: black;
+}
+
+#contact_page{
+    margin-top: 120px;
+    display: none;
+}
+
+#contact_page p{
+    font-size: 19px;
+}
+
+#voir_les_details{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 10%;
+    display: none;
+   
+}
+
+#nbre_vue{
+    font-weight: bold;
+    margin: 15px;
+    color: orangered;
+}
+
+#voir_les_details .card_offre{
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    justify-content: center;
+    border: 1px solid skyblue;
+    margin: 5px;
+}
+
+#voir_les_details .card_offre p{
+    margin: 5px;
+    font-size: 14px;
+}
+#voir_les_details .card_offre span{
+    font-weight: bold;
+}
+
+#voir_les_details .card_offre img{
+    width: 350px;
+    height: 200px;
+    margin: 0px;
+    border: 5px;
+}
+
+.popup-center {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6); /* Un fond semi-transparent pour l'arrière-plan */
+  }
+  
+  .popup-content {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  
+  .popup-button {
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  
+
+/* Écran large (par exemple, bureau) */
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+/* Écran moyen (par exemple, tablette) */
+@media screen and (max-width: 1199px) {
+    body {
+        max-width: 700px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 80%;
+    }
+
+    h3{
+        font-size: 80%;
+    }
+    h4{
+        font-size: 80%;
+    }
+    h5{
+        font-size: 80%;
+    }
+
+    header{
+        max-width: 80%;
+        font-size: 80%;
+    }
+    .header .logo h1{
+        font-size: 100%;
+       
+    }
+    .header{
+        max-width: 100%;
+        font-size: 100%;
+    }
+    .header .navbar button{
+        font-size: 80%;
+        display: none;
+    }
+    .header .navbar ul{
+        display: none;
+    }
+
+    .header .navbar #menu{
+        display: block;
+        margin-left: 50%;
+        font-size: 35px;
+    }
+
+    .rechercher{
+        font-size: 100%;
+        width: 100%;
+        justify-content: center;
+        margin-left: -1px;
+    }
+
+    .rechercher input{
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .rechercher button{
+        font-size: 60% ;
+        padding: 9px;
+    }
+
+    .contenaire{
+        font-size: 100%;
+        width: 100%;
+        align-items: center;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenaire .offre{
+        font-size: 100%;
+        width:250px;
+        height: 380px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body div{
+        font-size: 100%;
+    }
+    
+    .contenaire .offre span{
+        font-size: 15px;
+    }
+
+    .contenaire .offre p{
+        font-size: 9px;
+    }
+
+    .contenaire .offre img{
+        width: px;
+    }
+    .marketing{
+        width: 80%;
+        font-size: 80%;
+    }
+    .marketing p{
+        font-size: 80%;
+    }
+    .communauter{
+        width: 80%;
+    }
+
+    .communauter p{
+        font-size: 80%;
+    }
+
+    .propriete{
+        width: 80%;
+    }
+    .propriete p{
+        font-size: 80%;
+    }
+
+    .foot{
+        width: 80%;
+    }
+    .foot p{
+        font-size: 10px;
+    }
+    .foot span{
+        font-size: 80%;
+    }
+    footer{
+        width: 80%;
+    }
+
+    .voirplus{
+        font-size: 80%;
+        width: 80px;
+    }
+    .publier{
+        font-size: 80%;
+        width: 80px;
+    }
+    .com_inscrire{
+        font-size: 80%;
+        width: 80px;
+    }
+
+   
+}
+
+
+/* Écran étroit (par exemple, téléphone) */
+@media screen and (max-width: 767px) {
+    body {
+        max-width: 400px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    h2{
+        font-size: 70%;
+    }
+
+    h3{
+        font-size: 70%;
+    }
+    h4{
+        font-size: 70%;
+    }
+    h5{
+        font-size: 70%;
+    }
+
+    header{
+        max-width: 100%;
+        font-size: 70%;
+    }
+    .header .logo h1{
+        font-size: 100%;
+    }
+    .header{
+        max-width:100%;
+        font-size: 100%;
+        margin: 5px;
+    }
+   
+    .header .navbar button{
+        font-size: 80%;
+        display: none;
+    }
+    .header .navbar ul{
+        display: none;
+    }
+
+    .header .navbar #menu{
+        display: block;
+        font-size: 30px;
+        margin-left: 106px;
+    }
+
+    .header .navbar #menu2{
+        display: none;
+        font-size: 30px;
+        margin-left: 106px;
+    }
+   
+
+
+    .rechercher{
+        font-size: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+
+    }
+
+    .rechercher input{
+        font-size: 100%;
+        width: 80%;
+        
+    }
+
+    #btn1{
+        display: none;
+    }
+    
+
+    .rechercher button{
+        font-size: 50% ;
+        padding: 7px;
+        width: 100px;
+        margin-left: 5px;
+    }
+
+    .contenaire{
+        font-size: 100%;
+        width: 100%;
+        align-items: center;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5px ;
+        box-sizing: content-box;
+        margin-left: 10%;
+        overflow: hidden;
+        padding: 10px;
+        background-color: white;
+    }
+
+    #h2{
+        margin-top: -80px ;
+        text-align: center;
+        margin-left: 23%;
+    }
+    .contenaire .offre{
+        font-size: 100%;
+        width:350px;
+        height: 380px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        box-sizing: content-box;
+        padding: 1px;
+        margin-left: 4%;
+        background-color: whitesmoke;
+        box-sizing: content-box;
+        overflow: auto;
+       
+    }
+    
+    .contenaire .offre span{
+        font-size: 15px;
+        font-weight: bold;
+        color: orangered;
+    }
+
+    .contenaire .offre p{
+        font-size: 12px;
+        margin: 3px;
+        display: inline-block;
+    }
+
+    .contenaire .offre img{
+    
+        margin: 0px;
+        height: 200px;
+        width: 320px;
+        padding:10px ;
+        font-size: 80%;
+    }
+
+    #voirplus{
+        margin-left: 20%;
+    }
+    #voiroffre{
+        width: 80px;
+        padding: 2px;
+        margin-top: -2px;
+    }
+    #h3{
+        margin-left: 30%;
+    }
+    .marketing{
+        width: 100%;
+        margin-left: 10%;
+        
+    }
+    .marketing p{
+        font-size: 80%;
+    }
+    .communauter{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .communauter p{
+        font-size: 70%;
+        
+    }
+
+    .propriete{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .propriete p{
+        font-size: 70%;
+    }
+
+    #com_inscrire{
+        margin-left: 20%;
+    }
+    #publier{
+        margin-left: 20%;
+    }
+    #h5{
+        margin-left: 20%;
+    }
+
+    .foot{
+        width: 100%;
+        box-sizing: content-box;
+        position: fixed;
+    }
+    .foot p{
+        font-size: 9px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .foot span{
+        font-size: 14px;
+        color: black;
+    }
+    footer{
+        width: 100%;
+        margin-left: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    footer ion-icon{
+        color: black;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voirplus{
+        font-size: 70%;
+        width: 80px;
+    }
+    .publier{
+        font-size: 70%;
+        width: 80px;
+    }
+    .com_inscrire{
+        font-size: 70%;
+        width: 80px;
+    }
+    #copyright{
+        font-size: 70%;
+    }
+
+    #desoffres{
+        background-color: white;
+        align-items: center;
+        text-align: center;
+    }
+
+    #desoffre{
+        font-size: 100%;
+        width: 100%;
+        margin-left: 5%;
+        overflow: auto;
+        padding: 20px;
+        background-color: white;
+    }
+
+    #desoffres div{
+        width: 350px;
+        height: 300px;
+        background-color: whitesmoke;
+        overflow: auto;
+        padding: 5px;
+    }
+    #desoffres div img{
+        width: 320px;
+        height: 200px;
+        margin: 0px;
+    }
+
+    #desoffres div p{
+        font-size: 12px;
+        margin: 3px;
+        display: inline-block;
+    }
+
+    #contact_page{
+        font-size: 80%;
+        text-align: center;
+        align-items: center;
+        left: 50%;
+      }
+
+    #contact_page h1{
+        margin: 10px;
+    }
+
+    #inscription{
+        font-size: 100%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    #form_inscription input{
+        font-size: 80%;
+        width: 80%;
+    }
+
+    #pub{
+        font-size: 80%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    #form_publier input{
+        font-size: 100%;
+        width: 80%;
+    }
+
+    #connexionn{
+        font-size: 100%;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    #form_connexion input{
+        font-size: 80%;
+        width: 80%;
+    }
+
+    #voirplus_conn{
+        margin-left: 35%;
+        width: 130px;
+    }
+    #contenaire_dashbord div{
+      margin-left: 2%;
+    }
+    #contenaire_dashbord{
+      margin-left: 12%;
+    }
+
+    #btn3{
+         width: 50px;
+         margin: 10px;
+         display: none;
+    }
+
+   
+
+    #menu2{
+        display: block;
+        font-size: 30px;
+        margin-left: -20px;
+    }
+
+    .popup-center{
+        font-size: 60%;
+        margin-right: 20%;
+    }
+
+    .popup-content{
+        font-size: 60%;
+    }
+
+}

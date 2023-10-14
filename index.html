@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Pour une icône dans l'onglet du navigateur -->
+    <link rel="icon" href="Ajouter un titre.ico" type="image/x-icon">
+     <!-- Pour une icône sur les appareils mobiles (Apple Touch Icon) -->
+    <link rel="apple-touch-icon" href="Ajouter un titre.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immoblier Tchad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header">
+            <div class="logo"><h1 id="logo">Immobiler <span class="td">Trade</span></h1></div>
+            <div class="navbar">
+                <ul>
+                    <li id="btn_acceuil">Acceuil</li>
+                    <li id="btn_acceuil1">Acceuil</li>
+                    <li id="btn_offres">Offres</li>
+                    <li id="btn_contact">Contact</li>
+                </ul>
+                <button id="btn2">Connexion</button>
+                <button id="btn1">S'inscrire</button>
+                <button id="btn3">Deconnexion</button>
+                <button id="btn4">Publier</button>
+                <ion-icon name="menu-outline" id="menu"></ion-icon>
+                <ion-icon name="menu-outline" id="menu2"></ion-icon>
+                <ion-icon name="person-circle-outline" id="icon_compte"></ion-icon>
+                <p id="user_nom">salah_sbk</p>
+            </div>
+        </div>
+
+        <div class="menu_header_non_connecter" id="menu_header">
+            <ul>
+                <li id="btn_acceuil_menu">Acceuil</li>
+                <li id="btn_acceuil1">Acceuil</li>
+                <li id="btn_offres_menu">Offres</li>
+                <li id="btn_contact_menu">Contact</li>
+            </ul>
+            <button id="btn_menu1">Connexion</button><br>
+            <button id="btn_menu2">S'inscrire</button>
+        </div>
+        <div class="menu_header_connecter" id="menu_header_conn">
+            <ul>
+                <li id="btn_acceuil1_menu_conn">Acceuil</li>
+                <li id="btn_offres_menu_conn">Offres</li>
+                <li id="btn_contact_menu_conn">Contact</li>
+            </ul>
+            <button id="menu_conn_btn1">Deconnexion</button><br>
+            <button id="menu_conn_btn2">Publier</button><br>
+            <ion-icon name="person-circle-outline" id="icon_compte_menu2"></ion-icon>
+            <p id="user_nom_menu2">salah_sbk</p>
+        </div>
+    </header>
+    <div id="dash"><div class="rechercher" id="rechercher">
+        <input type="text" placeholder="Recherche...." id="search1" class="search">
+        <button id="btn_search">Rechercher</button>
+    </div>
+    <!---Immobiler dispo------>
+    <h2 id="h2">Immobilier disponible</h2>
+    <div class="contenaire" id="contenaire">
+       
+        <div class="offre">
+            <img src="maison\klemat villa.jpg" alt="Villa klemat">
+            <div class="details">
+               
+            </div>
+        </div>
+        <div class="offre">
+                <img src="maison\mardjandafak appart.jpg" alt="Villa klemat">
+                <div class="details">
+                   
+                </div>
+        </div>
+        <div class="offre">
+                <img src="maison\sabangali appart.jpg" alt="Villa klemat">
+                <div class="details">
+                    
+                </div>
+        </div>
+        <div class="offre">
+            <img src="maison\sabangali appart2.jpg" alt="Villa klemat">
+            <div class="details">
+                
+            </div>
+    </div>
+    </div>
+    <!---voir plus button-->
+    <button id="voirplus" class="voirplus">Voir plus+</button>
+    <!---Marketing-->
+    <h3 id="h3" style="text-align: center;">Découvrez l'Expérience Ultime d'Immobiler TD avec notre Immobiler.TD!</h3>
+    <div class="marketing" id="marketing">
+        <p>🚀 Vous recherchez la solution votre Confort ? Vous êtes au bon endroit !</p>
+        <p>✨ Chez Immobiler.TD, nous nous engageons à vous offrir une expérience inégalée dans le domaine d'immobilisation. 
+            Que vous soyez un novice ou un expert, notre plateforme est conçue pour répondre à tous vos besoins.</p>
+        <p>💼 Simplicité d'Utilisation : Notre interface conviviale et intuitive garantit une navigation sans effort.
+             Vous serez opérationnel en un rien de temps !</p>
+    </div>
+
+    <!--Rejoignez nous-->
+    <h4 id="h4" style="text-align: center;">Rejoignez Notre Communauté Croissante !</h4>
+    <div class="communauter" id="communauter">
+        <p>🤝 Joignez-vous à des milliers d'utilisateurs satisfaits qui ont déjà fait le choix de
+             Immobilier TD.
+             Ensemble, nous façonnons l'avenir d'Immobilisation au Tchad.</p>
+        <p>📞 Assistance Clientèle Exceptionnelle : Notre équipe de support dévouée est à votre
+             disposition pour répondre à toutes vos questions et vous fournir une assistance de premier ordre.</p>
+        <p>🛡️ Sécurité Avancée : Nous mettons la sécurité de vos données au premier plan. 
+            Soyez assuré que vos informations sont entre de bonnes mains.</p>
+    </div>
+    <!--btn sinscrire-->
+    <button id="com_inscrire" class="com_inscrire" style="text-align: center;">S'inscrire</button>
+
+    <!--proprieté-->
+    <h5 id="h5" style="text-align: center;">Découvrez le Pouvoir de la Visibilité pour Votre Propriété !</h5>
+    <div class="propriete" id="propriete">
+        <p>🏡 Vous êtes propriétaire d'un bien immobilier et vous cherchez à le vendre ou à le louer ? Ne cherchez plus !
+             Immobilier TD est la plateforme idéale pour mettre en avant votre propriété.</p>
+        <p>📸 Présentation Élégante : Notre plateforme vous permet de présenter votre bien de manière attrayante.
+             Ajoutez des photos de haute qualité, 
+            une description détaillée et mettez en valeur les caractéristiques uniques de votre propriété.</p>
+        <p>📸 Ajoutez Votre Annonce Maintenant : Créer votre annonce ne prend que quelques minutes. 
+            Inscrivez-vous dès maintenant et commencez à attirer des acheteurs ou des locataires potentiels.</p>
+    </div>
+    <!--btn publier-->
+    <button id="publier" class="publier">Publier</button></div> 
+    <!--footer-->
+
+    <footer id="footer">
+      <div class="foot">
+        <p> <span><b>À Propos de Immobiler.TD</b></span><br>
+            Découvrez une toute nouvelle façon de trouver la maison de vos rêves avec Immobiler TD.
+            Notre plateforme révolutionnaire est dédiée à simplifier la recherche,
+            l'achat et la location de biens immobiliers. Que vous cherchiez un appartement moderne en ville,
+            une maison de campagne pittoresque ou un investissement immobilier, 
+            Immobiler TD est votre partenaire de confiance.
+        </p>
+
+        <p><span><b>Contactez-nous</b></span><br>
+            L'équipe de [Nom de Votre Application] est à votre disposition pour répondre à toutes vos questions.
+             N'hésitez pas à nous contacter par e-mail à [Adresse E-mail] ou par téléphone au [Numéro de Téléphone].
+             Nous sommes là pour vous aider à naviguer dans le monde de l'immobilier et
+            à faire de chaque transaction une expérience sans tracas.
+        </p>
+        <p><span><b>Restez Connecté</b></span><br>
+            Suivez-nous sur les réseaux sociaux pour rester à jour avec les dernières annonces immobilières, 
+            les conseils utiles et les nouvelles fonctionnalités de Immobiler TD. 
+            Connectez-vous avec nous sur nos Réseaux Sociaux et 
+            faites partie de notre communauté grandissante de passionnés de l'immobilier.
+        </p>
+      </div>
+      <span id="RS">
+        <a href="https://web.facebook.com/profile.php?id=100078813638251" style="text-decoration: none;"><ion-icon name="logo-facebook" style="font-size: 25px;"></ion-icon></a>
+        <a href="https://discord.gg/3ZK6SJB2" style="text-decoration: none;"><ion-icon name="logo-discord" style="font-size: 25px;"></ion-icon></a>
+        <a href="https://twitter.com/immobiliertrade" style="text-decoration: none;"><ion-icon name="logo-twitter" style="font-size: 25px;"></ion-icon></a>
+      </span><br>
+      <span id="copyright">
+       <b> © 2023 Immobiler TD. Tous droits réservés.</b>
+      </span>
+    </footer>
+
+    <!--partie-->
+    <div class="pub" id="pub">
+        <h1>Publier une annonce</h1>
+        <form action="" method="post" enctype="multipart/form-data" id="form_publier">
+            <!-- Champ de téléchargement de fichiers -->
+            <label for="image">Choisissez une image :</label>
+            <input type="file" name="image" id="image" accept="image/*"><br>
+            <!-- L'attribut "accept" spécifie que seules les images sont autorisées -->
+            <input type="text" placeholder="A vendre ou à louer" id="status1"><br>
+            <input type="text" placeholder="Prix" id="prix1"><br>
+            <input type="text" placeholder="Contact" id="contact1"><br>
+            <input type="text" placeholder="Localisation" id="localisation1"><br>
+            <input type="text" placeholder="Informations supplementaires" id="information1"><br>
+            <!-- Bouton de soumission du formulaire -->
+            <input type="submit" value="Publier"><br>
+        </form>
+    </div>
+     <!--Page d'inscripton-->
+    <div class="inscription" id="inscription">
+        <h1>Inscription</h1>
+        <form action="" method="post" id="form_inscription">
+            <input type="text" placeholder="Nom D'utilisateur" id="nom_utilisateur"><br>
+            <input type="text" placeholder="Nom" id="nom"><br>
+            <input type="text" placeholder="Prenom" id="prenom"><br>
+            <input type="text" placeholder="Email" id="email_inscris"><br>
+            <input type="password"  placeholder="Mot de passe" id="password_inscris"><br>
+            <input type="password"  placeholder="Confirmation mot de passe" id="confirmation"><br>
+            <input type="submit" value="Inscription" id="submit">
+        </form>
+    </div>
+    <!--page de connexion-->
+    <div class="connexion" id="connexionn">
+        <h1>Connexion</h1>
+        <form action="" method="post" id="form_connexion">
+            <input type="text" placeholder="Nom d'utilisateur" id="nom_utilisateur_conn"><br>
+            <input type="password" placeholder="Mot de passe" id="password_conn"><br>
+            <p id="pass_oublier">Mot de passe oublier!</p><br>
+            <input type="submit" value="Connexion" id="submit_connexion"><br>
+            <p>Créer un compte pour se connecter !</p>
+        </form>
+    </div>
+    <!--page de contact-->
+    <div class="contact_page" id="contact_page">
+       <h1>👋 Bienvenue sur notre site web !</h1>
+       <p>Nous sommes ravis de vous accueillir ici. Chez Immobiler TD, 
+        nous sommes passionnés par ce que nous faisons et nous sommes toujours heureux de vous entendre. 
+        Que vous ayez des questions, des commentaires, ou simplement envie de discuter, 
+        nous sommes là pour vous.
+        📧 Vous pouvez nous contacter par e-mail. Nous lisons chaque message 
+        que nous recevons et nous nous efforçons de répondre rapidement.
+        🌐 De plus, n'hésitez pas à nous suivre sur nos réseaux sociaux. 
+        C'est un excellent moyen de rester informé(e) de nos dernières actualités, 
+        de nos offres spéciales et de nos projets passionnants. Vous trouverez les 
+        liens vers nos profils sur les réseaux sociaux ci-dessous :<br>
+        <span id="RS_foot_conn">
+            <a href="https://web.facebook.com/profile.php?id=100078813638251" style="text-decoration: none;"><ion-icon name="logo-facebook" style="font-size: 25px;"></ion-icon></a>
+            <a href="https://discord.gg/3ZK6SJB2" style="text-decoration: none;"><ion-icon name="logo-discord" style="font-size: 25px;"></ion-icon></a>
+            <a href="https://twitter.com/immobiliertrade" style="text-decoration: none;"><ion-icon name="logo-twitter" style="font-size: 25px;"></ion-icon></a>
+        </span><br>
+        🙏 Merci de nous avoir rendu visite. Nous espérons avoir bientôt de vos nouvelles !
+
+        Restons connectés,
+        
+        Immobilier TD
+        </p>
+    </div>
+
+    <!--Page des offres-->
+    <div class="desoffre" id="desoffre">
+        <h1 id="hh">Immobilier disponible</h1><br>
+     <div class="desoffres" id="desoffres">
+        <div class="offre1">
+            <img src="maison\klemat villa.jpg" alt="Villa klemat">
+                <p id="status"><span>Status:</span> A vendre et à louer</p>
+                <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                    Shanghai</p>
+                <p id="informations"><span>Informations:</span> O5 chambre 
+                    O5 douche interne 
+                    O2 grand  sallons 
+                    O2 douche interne 
+                    01 chambre pour gardiner 
+                    O1 douche pour le gardiner 
+                    Une électricité permanent 
+                    Une groupe électrogène 
+                    Prix 1500.000mille cfa 
+                    Une million cin cent mille 
+                    Discutable Plus d'informations contactez 
+                    Sûr le numéro wast app</p>
+                <button id="voiroffre">Voir l'offre</button>
+        </div>
+          <div class="offre2">
+                <img src="maison\mardjandafak appart.jpg" alt="Villa klemat">
+                    <p id="status"><span>Status:</span> A vendre et à louer</p>
+                <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                    Shanghai</p>
+                <p id="informations"><span>Informations:</span> O5 chambre 
+                    O5 douche interne 
+                    O2 grand  sallons 
+                    O2 douche interne 
+                    01 chambre pour gardiner 
+                    O1 douche pour le gardiner 
+                    Une électricité permanent 
+                    Une groupe électrogène 
+                    Prix 1500.000mille cfa 
+                    Une million cin cent mille 
+                    Discutable Plus d'informations contactez 
+                    Sûr le numéro wast app</p>
+                <button id="voiroffre" class="voiroffre">Voir l'offre</button>
+          </div>
+          <div class="offre3">
+                <img src="maison\sabangali appart.jpg" alt="Villa klemat">
+                    <p id="status"><span>Status:</span> A vendre et à louer</p>
+                    <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                    <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                    <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                        Shanghai</p>
+                    <p id="informations"><span>Informations:</span> O5 chambre 
+                        O5 douche interne 
+                        O2 grand  sallons 
+                        O2 douche interne 
+                        01 chambre pour gardiner 
+                        O1 douche pour le gardiner 
+                        Une électricité permanent 
+                        Une groupe électrogène 
+                        Prix 1500.000mille cfa 
+                        Une million cin cent mille 
+                        Discutable Plus d'informations contactez 
+                        Sûr le numéro wast app</p>
+                    <button id="voiroffre">Voir l'offre</button>
+          </div>
+          <div class="offre4">
+            <img src="maison\sabangali appart2.jpg" alt="Villa klemat">
+                <p id="status"><span>Status:</span> A vendre et à louer</p>
+                <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                    Shanghai</p>
+                <p id="informations"><span>Informations:</span> O5 chambre 
+                    O5 douche interne 
+                    O2 grand  sallons 
+                    O2 douche interne 
+                    01 chambre pour gardiner 
+                    O1 douche pour le gardiner 
+                    Une électricité permanent 
+                    Une groupe électrogène 
+                    Prix 1500.000mille cfa 
+                    Une million cin cent mille 
+                    Discutable Plus d'informations contactez 
+                    Sûr le numéro wast app</p>
+                <button id="voiroffre">Voir l'offre</button>
+          </div>
+
+          
+     </div>
+     <button id="voirplus1" class="voirplus1" style="display: none;">Voir plus+</button>
+    </div>
+    <!--Message de publier-->
+    <div class="erreur_pub" id="erreur_pub">
+        <ion-icon name="alert-circle-outline" id="icon_pub_erreur"></ion-icon>
+        <p>Veuillez vous inscrire avant de faire une publication!</p>
+    </div>
+
+    <div id="dashbord">
+        <div class="rechercher" id="rechercher">
+            <input type="text" placeholder="Recherche...." id="search_conn" class="search">
+            <button id="btn_search_conn">Rechercher</button>
+        </div>
+        <!---Immobiler dispo------>
+        <h2 id="h2">Immobilier disponible</h2>
+        <div class="contenaire" id="contenaire_dashbord">
+           
+            <div class="offre">
+                <img src="maison\klemat villa.jpg" alt="Villa klemat">
+                <div class="details">
+                    <p id="status"><span>Status:</span> A vendre et à louer</p>
+                    <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                    <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                    <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                        Shanghai</p>
+                    <p id="informations"><span>Informations:</span> O5 chambre 
+                        O5 douche interne 
+                        O2 grand  sallons 
+                        O2 douche interne 
+                        01 chambre pour gardiner 
+                        O1 douche pour le gardiner 
+                        Une électricité permanent 
+                        Une groupe électrogène 
+                        Prix 1500.000mille cfa 
+                        Une million cin cent mille 
+                        Discutable Plus d'informations contactez 
+                        Sûr le numéro wast app</p>
+                    <button id="voiroffre">Voir l'offre</button>
+                </div>
+            </div>
+            <div class="offre">
+                    <img src="maison\mardjandafak appart.jpg" alt="Villa klemat">
+                    <div class="details">
+                        <p id="status"><span>Status:</span> A vendre et à louer</p>
+                    <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                    <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                    <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                        Shanghai</p>
+                    <p id="informations"><span>Informations:</span> O5 chambre 
+                        O5 douche interne 
+                        O2 grand  sallons 
+                        O2 douche interne 
+                        01 chambre pour gardiner 
+                        O1 douche pour le gardiner 
+                        Une électricité permanent 
+                        Une groupe électrogène 
+                        Prix 1500.000mille cfa 
+                        Une million cin cent mille 
+                        Discutable Plus d'informations contactez 
+                        Sûr le numéro wast app</p>
+                    <button id="voiroffre">Voir l'offre</button>
+                    </div>
+            </div>
+            <div class="offre">
+                    <img src="maison\sabangali appart.jpg" alt="Villa klemat">
+                    <div class="details">
+                        <p id="status"><span>Status:</span> A vendre et à louer</p>
+                        <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                        <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                        <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                            Shanghai</p>
+                        <p id="informations"><span>Informations:</span> O5 chambre 
+                            O5 douche interne 
+                            O2 grand  sallons 
+                            O2 douche interne 
+                            01 chambre pour gardiner 
+                            O1 douche pour le gardiner 
+                            Une électricité permanent 
+                            Une groupe électrogène 
+                            Prix 1500.000mille cfa 
+                            Une million cin cent mille 
+                            Discutable Plus d'informations contactez 
+                            Sûr le numéro wast app</p>
+                        <button id="voiroffre">Voir l'offre</button>
+                    </div>
+            </div>
+            <div class="offre">
+                <img src="maison\sabangali appart2.jpg" alt="Villa klemat">
+                <div class="details">
+                    <p id="status"><span>Status:</span> A vendre et à louer</p>
+                    <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                    <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                    <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                        Shanghai</p>
+                    <p id="informations"><span>Informations:</span> O5 chambre 
+                        O5 douche interne 
+                        O2 grand  sallons 
+                        O2 douche interne 
+                        01 chambre pour gardiner 
+                        O1 douche pour le gardiner 
+                        Une électricité permanent 
+                        Une groupe électrogène 
+                        Prix 1500.000mille cfa 
+                        Une million cin cent mille 
+                        Discutable Plus d'informations contactez 
+                        Sûr le numéro wast app</p>
+                    <button id="voiroffre">Voir l'offre</button>
+                </div>
+        </div>
+        </div>
+        <!---voir plus button-->
+        <button id="voirplus_conn" class="voirplus">Voir plus+</button>
+        <footer id="footer">
+            <div class="foot">
+              <p> <span><b>À Propos de Immobiler.TD</b></span><br>
+                  Découvrez une toute nouvelle façon de trouver la maison de vos rêves avec Immobiler TD.
+                  Notre plateforme révolutionnaire est dédiée à simplifier la recherche,
+                  l'achat et la location de biens immobiliers. Que vous cherchiez un appartement moderne en ville,
+                  une maison de campagne pittoresque ou un investissement immobilier, 
+                  Immobiler TD est votre partenaire de confiance.
+              </p>
+      
+              <p><span><b>Contactez-nous</b></span><br>
+                  L'équipe de [Nom de Votre Application] est à votre disposition pour répondre à toutes vos questions.
+                   N'hésitez pas à nous contacter par e-mail à [Adresse E-mail] ou par téléphone au [Numéro de Téléphone].
+                   Nous sommes là pour vous aider à naviguer dans le monde de l'immobilier et
+                  à faire de chaque transaction une expérience sans tracas.
+              </p>
+              <p><span><b>Restez Connecté</b></span><br>
+                  Suivez-nous sur les réseaux sociaux pour rester à jour avec les dernières annonces immobilières, 
+                  les conseils utiles et les nouvelles fonctionnalités de Immobiler TD. 
+                  Connectez-vous avec nous sur nos Réseaux Sociaux et 
+                  faites partie de notre communauté grandissante de passionnés de l'immobilier.
+              </p>
+            </div>
+            <span id="RS_foot_conn">
+              <a href="https://web.facebook.com/profile.php?id=100078813638251" style="text-decoration: none;"><ion-icon name="logo-facebook" style="font-size: 25px;"></ion-icon></a>
+              <a href="https://discord.gg/3ZK6SJB2" style="text-decoration: none;"><ion-icon name="logo-discord" style="font-size: 25px;"></ion-icon></a>
+              <a href="https://twitter.com/immobiliertrade" style="text-decoration: none;"><ion-icon name="logo-twitter" style="font-size: 25px;"></ion-icon></a>
+            </span><br>
+            <span id="copyright">
+             <b> © 2023 Immobiler TD. Tous droits réservés.</b>
+            </span>
+        </footer>
+        </div>
+    <div class="compte_connecter" id="compte_connecter">
+          <div class="user">
+            <img src="maison/klemat villa.jpg" alt="photo de profile" id="photo_profile">
+          </div>
+          <p id="nom_user">Nom: Salah</p>
+          <p id="prenom_user">Prenom: ahmat</p>
+          <p id="status_user">Status: Vendeur et acheteur</p>
+          </div>
+
+          <div id="pub_compte_connecter"></div>
+    </div>
+
+    <div class="voir_les_details" id="voir_les_details">
+       <p id="nbre_vue">Nombre des vues: 10</p>
+       <div class="card_offre">
+         <img src="maison\mardjandafak appart.jpg" alt="Villa klemat">
+         <div class="details">
+                    <p id="status"><span>Status:</span> A vendre et à louer</p>
+                    <p id="prix"><span>Prix:</span> 1.000.0000</p>
+                    <p id="Contact"><span>Contact:</span> +235 66 46 04 08 / 95 65 82 35</p>
+                    <p id="Localisation"><span>Localisation:</span> quartier klemate non louagne du hotele 
+                        Shanghai</p>
+                    <p id="informations"><span>Informations:</span> O5 chambre 
+                        O5 douche interne 
+                        O2 grand  sallons 
+                        O2 douche interne 
+                        01 chambre pour gardiner 
+                        O1 douche pour le gardiner 
+                        Une électricité permanent 
+                        Une groupe électrogène 
+                        Prix 1500.000mille cfa 
+                        Une million cin cent mille 
+                        Discutable Plus d'informations contactez 
+                        Sûr le numéro wast app</p>
+         </div>
+        </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!--Partir js haut game-->
+<script type="module">
+const page_details_offre=document.querySelector('#voir_les_details');
+const btn_voirplus_conn =document.querySelector('#voirplus_conn');
+const contenaire_dashbord = document.querySelector('#contenaire_dashbord');
+const btn_publier = document.querySelector('#publier');
+const page_pub_annonce = document.querySelector('#pub');
+const page_contenaire = document.querySelector('#contenaire');
+const btn_inscrire = document.querySelector('#com_inscrire');
+const btn_voirplus = document.querySelector('#voirplus');
+const h2 = document.querySelector('#h2');
+const h3 = document.querySelector('#h3');
+const h4 = document.querySelector('#h4');
+const h5 = document.querySelector('#h5');
+const div_marketing = document.querySelector('#marketing');
+const div_communauter = document.querySelector('#communauter');
+const div_propriete = document.querySelector('#propriete');
+const div_recherche = document.querySelector('#rechercher');
+const div_footer = document.querySelector('#footer');
+const div_header =document.querySelector('#header');
+const form_pub = document.querySelector('#form_publier');
+const btn_acceuil =document.querySelector('#btn_acceuil');
+const btn_acceuil1 =document.querySelector('#btn_acceuil1');
+const btn_logo =document.querySelector('#logo');
+const page_inscrip = document.querySelector('#inscription');
+const btn_inscrire1 = document.querySelector('#btn1');
+const btn_conn = document.querySelector('#btn2');
+const page_connexion = document.querySelector('#connexionn');
+const page_offres = document.querySelector('#desoffres');
+const btn_offres = document.querySelector('#btn_offres');
+const form_inscription= document.querySelector('#form_inscription');
+const form_connexion = document.querySelector('#form_connexion');
+const btn_inscription = document.querySelector('#inscription');
+const btn_recherche = document.querySelector('#btn_search');
+const btn_voiroffre = document.querySelector('#voiroffre');
+const btn_compte= document.querySelector('#photo_profile');
+const show = document.querySelector('#erreur_pub');
+const btn_deconn= document.querySelector("#btn3");
+const btn_publication_head = document.querySelector('#btn4');
+const dashbord = document.querySelector('#dashbord');
+const compte_connecter = document.querySelector('#compte_connecter');
+const pseudo = document.querySelector('#nom_utilisateur_conn').value;
+const pass = document.querySelector('#password_conn').value;
+const page_pub_compte_connecter=document.querySelector('#pub_compte_connecter');
+const page_desoffres= document.querySelector('#desoffre');
+const icon_compte =document.querySelector('#icon_compte');
+const user_nom= document.querySelector('#user_nom_menu2');
+const btn_search_conn = document.querySelector('#btn_search_conn');
+const search_conn =document.querySelector('#search_conn');
+const page_contact = document.querySelector('#contact_page');
+const btn_contact = document.querySelector('#btn_contact');
+const btn_voirplus_offre= document.querySelector('#voirplus1');
+const menu2= document.querySelector('#menu2');
+const header_menu_conn = document.querySelector('#menu_header_conn');
+
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBwHxVl0aljGLF3zOFXHuylAh_H-Y4pFWA",
+          authDomain: "immobiliertd-efb40.firebaseapp.com",
+          projectId: "immobiliertd-efb40",
+          storageBucket: "immobiliertd-efb40.appspot.com",
+          messagingSenderId: "295196683286",
+          appId: "1:295196683286:web:813f607666a29db6139937",
+          measurementId: "G-FBP0WSZVGF"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const storage = getStorage(app);
+
+
+        import {getDatabase, ref, child, set,push, get, onValue,orderByChild} 
+        from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
+        import { getStorage , ref as sRef, uploadBytes, getDownloadURL} from "https://www.gstatic.com/firebasejs/10.4.0/firebase-storage.js";
+
+        function inscription(){
+        form_inscription.addEventListener('submit', (e)=>{
+          e.preventDefault();
+          const nom_tilisateur = document.querySelector('#nom_utilisateur').value;
+          const nom = document.querySelector('#nom').value;
+          const prenom = document.querySelector('#prenom').value;
+          const email = document.querySelector('#email_inscris').value;
+          const password = document.querySelector('#password_inscris').value;
+          const confirmation = document.querySelector('#confirmation').value;
+//les valeurs a ajoutées sur la database inscriptions.......//
+          if(password !==confirmation){
+                   const popup = document.createElement('div');
+                   popup.classList.add('popup-center');
+                   popup.style.display='block';
+                   popup.style.marginTop='-300px';
+                   popup.style.marginLeft='35%';
+                   popup.style.position='absolute';
+                   popup.style.padding='20px';
+                   popup.style.backgroundColor='white';
+                   popup.style.width='350px';
+                   popup.style.border='1px solid black';
+                   const contentpop=document.createElement('div');
+                   contentpop.classList.add('popup-content');
+                   const msg_pop= document.createElement('p');
+                   msg_pop.textContent = "les mots de passe ne corresponde pas!"
+                   const btn_fermer= document.createElement('button');
+                   btn_fermer.classList.add('popup-button');
+                   btn_fermer.textContent='Fermer';
+                   btn_fermer.style.backgroundColor='skyblue';
+                   btn_fermer.style.borderRadius='10px';
+                   btn_fermer.style.padding='3px';
+                   btn_fermer.style.border='1px solid black'
+                   
+
+                   contentpop.appendChild(msg_pop);
+                   contentpop.appendChild(btn_fermer);
+                   popup.appendChild(contentpop)
+
+                   page_inscrip.appendChild(popup);
+                   setTimeout(() => {
+                        popup.style.display = 'block';
+                        }, 3000);
+                    
+
+                    btn_fermer.addEventListener('click', ()=>{
+                        popup.style.display='none';
+                    });
+          };
+
+
+         const db = getDatabase();
+// Obtenez une référence à la liste des utilisateurs par nom d'utilisateur
+         const userRef = ref(db, 'usernameList/' + nom_tilisateur);
+// Vérifiez si un utilisateur avec ce nom existe déjà
+         get(userRef)
+         .then((snapshot) => {
+         if (snapshot.exists()) {
+                   const popup = document.createElement('div');
+                   popup.classList.add('popup-center'); 
+                   popup.style.display='block';
+                   popup.style.marginTop='-300px';
+                   popup.style.marginLeft='35%';
+                   popup.style.position='absolute';
+                   popup.style.padding='20px';
+                   popup.style.backgroundColor='white';
+                   popup.style.width='350px';
+                   popup.style.border='1px solid black';
+                   const contentpop=document.createElement('div');
+                   contentpop.classList.add('popup-content');
+                   const msg_pop= document.createElement('p');
+                   msg_pop.textContent = "Utilisateur existe deja...!"
+                   const btn_fermer= document.createElement('button');
+                   btn_fermer.classList.add('popup-button');
+                   btn_fermer.textContent='Fermer';
+                   btn_fermer.style.backgroundColor='skyblue';
+                   btn_fermer.style.borderRadius='10px';
+                   btn_fermer.style.padding='3px';
+                   btn_fermer.style.border='1px solid black'
+                   
+
+                   contentpop.appendChild(msg_pop);
+                   contentpop.appendChild(btn_fermer);
+                   popup.appendChild(contentpop)
+
+                   page_inscrip.appendChild(popup);
+                   setTimeout(() => {
+                        popup.style.display = 'block';
+                        }, 3000);
+                    
+
+                    btn_fermer.addEventListener('click', ()=>{
+                        popup.style.display='none';
+                    });
+         } else {
+      // Créez un nouvel utilisateur dans la base de données
+             set(userRef, {
+                 nom_tilisateur: nom_tilisateur,
+                 nom: nom,
+                 prenom: prenom,
+                 email: email,
+                 password: password,
+                 confirmation: confirmation,
+                 }) 
+             .then(() => {
+                   const popup = document.createElement('div');
+                   popup.classList.add('popup-center');
+                   popup.style.display='block';
+                   popup.style.marginTop='-300px';
+                   popup.style.marginLeft='35%';
+                   popup.style.position='absolute';
+                   popup.style.padding='20px';
+                   popup.style.backgroundColor='white';
+                   popup.style.width='350px';
+                   popup.style.border='1px solid black';
+                   const contentpop=document.createElement('div');
+                   contentpop.classList.add('popup-content');
+                   const msg_pop= document.createElement('p');
+                   msg_pop.textContent = "Vous etes bien inscris !"
+                   const btn_fermer= document.createElement('button');
+                   btn_fermer.textContent='Fermer';
+                   btn_fermer.classList.add('popup-button'); 
+                   btn_fermer.style.backgroundColor='skyblue';
+                   btn_fermer.style.borderRadius='10px';
+                   btn_fermer.style.padding='3px';
+                   btn_fermer.style.border='1px solid black'
+                   
+
+                   contentpop.appendChild(msg_pop);
+                   contentpop.appendChild(btn_fermer);
+                   popup.appendChild(contentpop)
+
+                   page_inscrip.appendChild(popup);
+                   setTimeout(() => {
+                        popup.style.display = 'block';
+                        }, 3000);
+                    
+
+                    btn_fermer.addEventListener('click', ()=>{
+                        popup.style.display='none';
+                    });
+
+                })
+             .catch((error) => {
+                   const popup = document.createElement('div');
+                   popup.classList.add('popup-center');
+                   popup.style.display='block';
+                   popup.style.marginTop='-300px';
+                   popup.style.marginLeft='35%';
+                   popup.style.position='absolute';
+                   popup.style.padding='20px';
+                   popup.style.backgroundColor='white';
+                   popup.style.width='350px';
+                   popup.style.border='1px solid black';
+                   const contentpop=document.createElement('div');
+                   contentpop.classList.add('popup-content');
+                   const msg_pop= document.createElement('p');
+                   msg_pop.textContent = "Erreur d'sincription! " + error;
+                   const btn_fermer= document.createElement('button');
+                   btn_fermer.classList.add('popup-button'); 
+                   btn_fermer.textContent='Fermer';
+                   btn_fermer.style.backgroundColor='skyblue';
+                   btn_fermer.style.borderRadius='10px';
+                   btn_fermer.style.padding='3px';
+                   btn_fermer.style.border='1px solid black'
+                   
+
+                   contentpop.appendChild(msg_pop);
+                   contentpop.appendChild(btn_fermer);
+                   popup.appendChild(contentpop)
+
+                   page_inscrip.appendChild(popup);
+                   setTimeout(() => {
+                        popup.style.display = 'block';
+                        }, 3000);
+                    
+
+                    btn_fermer.addEventListener('click', ()=>{
+                        popup.style.display='none';
+                    });
+                    });
+                }
+            })
+         .catch((error) => {
+              alert("Erreur lors de la vérification de l'utilisateur : " + error);
+            }); 
+        });
+
+        
+    };
+
+
+  
+ function afficheracceuil(){
+    const db = getDatabase();
+    const publicationsRef = ref(db, 'publications/');
+
+    onValue(publicationsRef, (snapshot) => {
+       // Effacez le conteneur des publications avant de l'actualiser
+            page_contenaire.innerHTML = '';
+        // Parcourez toutes les publications du pseudo actuel
+            snapshot.forEach((publicationSnapshot) => {
+            const publicationData = publicationSnapshot.val();
+
+        // Parcourez les clés uniques de chaque publication
+            for (const key in publicationData) {
+              if (publicationData.hasOwnProperty(key)) {
+                 const publication = publicationData[key];
+                // Appeler la fonction pour afficher la publication
+                 afficher_acceuil(publication);
+                }
+            }
+        });
+    }, (error) => {
+    console.error('Erreur lors de la récupération des publications :', error);
+                       });
+ };
+ 
+ function afficheroffre() {
+    const db = getDatabase();
+    const publicationsRef = ref(db, 'publications/');
+
+    onValue(publicationsRef, (snapshot) => {
+        // Effacez le conteneur des publications avant de l'actualiser
+        page_offres.innerHTML = '';
+        // Parcourez toutes les publications du pseudo actuel
+        snapshot.forEach((publicationSnapshot) => {
+        const publicationData = publicationSnapshot.val();
+
+        // Parcourez les clés uniques de chaque publication
+        for (const key in publicationData) {
+        if (publicationData.hasOwnProperty(key)) {
+         const publication = publicationData[key];
+        // Appeler la fonction pour afficher la publication
+         afficher_offre(publication);
+        }
+        }}); }, (error) => {
+    console.error('Erreur lors de la récupération des publications :', error);
+                       });
+    };
+  
+ function afficher_offre(publicationData){
+    const card = document.createElement('div');
+    card.style.height= '450px';
+    card.classList.add('offre');
+
+    card.innerHTML = `
+        <img src="${publicationData.image}" alt="Image de la publication">
+        <h2>${publicationData.status}</h2>
+        <p>Prix : ${publicationData.prix}</p>
+        <p>Contact : ${publicationData.contact}</p>
+        <p>Localisation : ${publicationData.localisation}</p>
+        <p>Informations: ${publicationData.information}</p>
+       `;
+    page_offres.appendChild(card);
+ };
+
+ function afficher_acceuil(publicationData){
+    const card = document.createElement('div');
+    card.classList.add('offre');
+
+    card.innerHTML = `
+        <img src="${publicationData.image}" alt="Image de la publication">
+        <h2>${publicationData.status}</h2>
+        <p>Prix : ${publicationData.prix}</p>
+        <p>Contact : ${publicationData.contact}</p>
+        <p>Localisation : ${publicationData.localisation}</p>
+        <p>Informations: ${publicationData.information}</p>
+       `;
+        
+        page_contenaire.appendChild(card);
+        
+ };
+
+ const btn_search1= document.querySelector('#btn_search');
+
+ function rechercher_acceuil() {
+  btn_search1.addEventListener('click', () => {
+    const search = document.querySelector('#search1');
+    const recherche = search.value.toLowerCase();
+
+    const db = getDatabase();
+    const publicationsRef = ref(db, 'publications');
+
+    onValue(publicationsRef, (snapshot) => {
+      // Effacez les résultats précédents
+      page_contenaire.innerHTML = '';
+      let resultatTrouve = false;
+
+      snapshot.forEach((publicationSnapshot) => {
+        const publicationData = publicationSnapshot.val();
+        for (const key in publicationData) {
+          if (publicationData.hasOwnProperty(key)) {
+            const publication = publicationData[key];
+            // Vérifiez si la publication correspond à la recherche
+            if (
+              publication.localisation.toLowerCase() === recherche ||
+              publication.status.toLowerCase() === recherche ||
+              publication.prix.toLowerCase() === recherche
+            ) {
+              // Appeler la fonction pour afficher la publication
+              displayOffer(publication);
+              resultatTrouve = true;
+            }
+          }
+        }
+      });
+
+      // Si aucun résultat n'est trouvé, affichez un message approprié
+      if (!resultatTrouve) {
+        page_contenaire.innerHTML = 'Aucun résultat trouvé...';
+      }
+    });
+  });
+}
+
+
+
+ function displayOffer(publication){
+        const card = document.createElement('div');
+        card.classList.add('offre');
+
+        card.innerHTML = `
+                <img src="${publication.image}" alt="Image de la publication">
+                <h2>${publication.status}</h2>
+                <p>Prix : ${publication.prix}</p>
+                <p>Contact : ${publication.contact}</p>
+                <p>Localisation : ${publication.localisation}</p>
+                <p>Informations: ${publication.information}</p>
+                `;
+
+                // Ajoutez la carte au conteneur des publications
+         page_contenaire.appendChild(card);
+        };
+
+
+
+ function connexion(){
+    form_connexion.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const pseudo = document.querySelector('#nom_utilisateur_conn').value;
+    const pass = document.querySelector('#password_conn').value;
+
+    const db = getDatabase();
+    const userRef = ref(db, 'usernameList/' + pseudo);
+    get(userRef)
+    .then((snapshot) => {
+         if (snapshot.exists()) {
+          let dpass= snapshot.val().password;
+          if (dpass==pass){
+            dashbord.style.display='block';
+            btn_inscrire.style.display = 'none';
+            btn_inscription.style.display = 'none';
+            btn_inscrire1.style.display='none',
+            btn_compte.style.display='block';
+            btn_conn.style.display='none';
+            btn_deconn.style.display ='none';
+            btn_publication_head.style.display='none';
+            page_connexion.style.display='none';
+            btn_acceuil.style.display='none';
+            btn_acceuil1.style.display='block';
+            icon_compte.style.display= 'none';
+            user_nom.innerHTML = pseudo;
+            menu.style.display='none';
+            menu2.style.display='block';
+            
+
+
+            menu2.addEventListener('click', ()=>{
+                header_menu_conn.style.display='block';
+            });
+
+            const btn_acceuil1_menu_conn=document.querySelector('#btn_acceuil1_menu_conn').addEventListener('click', ()=>{
+              dashbord.style.display='block';
+              btn_inscrire.style.display = 'none';
+              btn_inscription.style.display = 'none';
+              btn_inscrire1.style.display='none',
+              btn_compte.style.display='block';
+              btn_conn.style.display='none';
+              btn_deconn.style.display ='none';
+              btn_publication_head.style.display='none';
+              page_connexion.style.display='none';
+              page_pub_annonce.style.display = 'none';
+              page_offres.style.display='none';
+              compte_connecter.style.display= 'none';
+              page_inscrip.style.display='none';
+              page_offres.style.display='none';
+              page_desoffres.style.display='none';
+              page_contact.style.display='none';
+              header_menu_conn.style.display='none';
+              menu2.style.display='block';
+            });
+
+            const btn_offres_menu_conn=document.querySelector('#btn_offres_menu_conn').addEventListener('click', ()=>{
+             header_menu_conn.style.display='none';
+             page_pub_annonce.style.display = 'none';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_inscrip.style.display='none';
+             page_connexion.style.display ='none';
+             page_offres.style.display='block';
+             page_offres.style.display='flex';
+             dashbord.style.display='none'
+             compte_connecter.style.display= 'none';
+             page_inscrip.style.display='none'; 
+             page_desoffres.style.display='block';
+             page_contact.style.display='none'
+            });
+
+            const menu_conn_btn2 = document.querySelector('#menu_conn_btn2').addEventListener('click', ()=>{
+             dashbord.style.display='none';
+             header_menu_conn.style.display='none';
+             show.style.display = 'none';
+             page_pub_annonce.style.display = 'block';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_connexion.style.display ='none';
+             page_offres.style.display='none';
+             page_inscrip.style.display='none'; 
+             compte_connecter.style.display= 'none';
+             page_offres.style.display='none';
+             page_desoffres.style.display='none';
+             page_contact.style.display='none'
+            });
+
+            const btn_contact_menu_conn= document.querySelector('#btn_contact_menu_conn').addEventListener('click', ()=>{
+             page_contact.style.display = 'block';
+             page_pub_annonce.style.display = 'none';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_inscrip.style.display='none';
+             page_connexion.style.display ='none';
+             page_offres.style.display='none';
+             page_offres.style.display='none';
+             dashbord.style.display='none'
+             compte_connecter.style.display= 'none';
+             page_inscrip.style.display='none'; 
+             page_desoffres.style.display='none';
+             header_menu_conn.style.display='none';
+            });
+
+            btn_acceuil1.addEventListener('click', (e)=>{
+              e.preventDefault();
+              dashbord.style.display='block';
+              btn_inscrire.style.display = 'none';
+              btn_inscription.style.display = 'none';
+              btn_inscrire1.style.display='none',
+              btn_compte.style.display='block';
+              btn_conn.style.display='none';
+              btn_deconn.style.display ='none';
+              btn_publication_head.style.display='block';
+              page_connexion.style.display='none';
+              page_pub_annonce.style.display = 'none';
+              page_offres.style.display='none';
+              compte_connecter.style.display= 'none';
+              page_inscrip.style.display='none';
+              page_offres.style.display='none';
+              page_desoffres.style.display='none';
+              page_contact.style.display='none';
+              header_menu_conn.style.display='none';
+             });
+
+            btn_voirplus.addEventListener('click', ()=>{
+              page_pub_annonce.style.display = 'none';
+              page_contenaire.style.display = 'none';
+              btn_inscrire.style.display = 'none';
+              btn_voirplus.style.display = 'none';
+              btn_publier.style.display= 'none';
+              h2.style.display ='none';
+              h3.style.display ='none';
+              h4.style.display ='none';
+              h5.style.display ='none';
+              div_communauter.style.display= 'none';
+              div_marketing.style.display= 'none';
+              div_propriete.style.display='none';
+              div_recherche.style.display= 'none'; 
+              div_footer.style.display = 'none';
+              div_header.style.display ='block';
+              page_inscrip.style.display='none';
+              page_connexion.style.display ='none';
+              page_offres.style.display='block';
+              compte_connecter.style.display= 'none';
+              page_inscrip.style.display='none';
+              page_contact.style.display='none'; 
+              header_menu_conn.style.display='none';
+            }); 
+
+            btn_publication_head.addEventListener('click', ()=>{
+              header_menu_conn.style.display='none';
+              show.style.display = 'none';
+              page_pub_annonce.style.display = 'block';
+              page_contenaire.style.display = 'none';
+              btn_inscrire.style.display = 'none';
+              btn_voirplus.style.display = 'none';
+              btn_publier.style.display= 'none';
+              h2.style.display ='none';
+              h3.style.display ='none';
+              h4.style.display ='none';
+              h5.style.display ='none';
+              div_communauter.style.display= 'none';
+              div_marketing.style.display= 'none';
+              div_propriete.style.display='none';
+              div_recherche.style.display= 'none'; 
+              div_footer.style.display = 'none';
+              div_header.style.display ='block';
+              page_connexion.style.display ='none';
+              page_offres.style.display='none';
+              page_inscrip.style.display='none';
+              dashbord.style.display='none'; 
+              compte_connecter.style.display= 'none';
+              page_desoffres.style.display='none';
+              page_contact.style.display='none';});
+
+            const menu_conn_btn1 =document.querySelector('#menu_conn_btn1').addEventListener('click', (e)=>{
+              e.preventDefault();
+              window.location.reload();
+            });
+        
+            btn_inscription.addEventListener('click', ()=>{
+             header_menu_conn.style.display='none';
+             page_pub_annonce.style.display = 'none';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_inscrip.style.display='block';
+             page_connexion.style.display ='none';
+             page_offres.style.display='none';
+             compte_connecter.style.display= 'none';
+             page_inscrip.style.display='none';
+             page_offres.style.display='none'; 
+             page_desoffres.style.display='none';
+             page_contact.style.display='none';});
+        
+            btn_publier.addEventListener('click', ()=>{
+             header_menu_conn.style.display='none';
+             show.style.display = 'none';
+             page_pub_annonce.style.display = 'block';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_connexion.style.display ='none';
+             page_offres.style.display='none';
+             page_inscrip.style.display='none'; 
+             compte_connecter.style.display= 'none';
+             page_offres.style.display='none';
+             page_desoffres.style.display='none';
+             page_contact.style.display='none';});
+
+             btn_contact.addEventListener('click', ()=>{
+             page_contact.style.display = 'block';
+             page_pub_annonce.style.display = 'none';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_inscrip.style.display='none';
+             page_connexion.style.display ='none';
+             page_offres.style.display='none';
+             page_offres.style.display='none';
+             dashbord.style.display='none'
+             compte_connecter.style.display= 'none';
+             page_inscrip.style.display='none'; 
+             page_desoffres.style.display='none';
+             header_menu_conn.style.display='none';
+            }); 
+
+
+            btn_offres.addEventListener('click', ()=>{
+             header_menu_conn.style.display='none';
+             page_pub_annonce.style.display = 'none';
+             page_contenaire.style.display = 'none';
+             btn_inscrire.style.display = 'none';
+             btn_voirplus.style.display = 'none';
+             btn_publier.style.display= 'none';
+             h2.style.display ='none';
+             h3.style.display ='none';
+             h4.style.display ='none';
+             h5.style.display ='none';
+             div_communauter.style.display= 'none';
+             div_marketing.style.display= 'none';
+             div_propriete.style.display='none';
+             div_recherche.style.display= 'none'; 
+             div_footer.style.display = 'none';
+             div_header.style.display ='block';
+             page_inscrip.style.display='none';
+             page_connexion.style.display ='none';
+             page_offres.style.display='block';
+             page_offres.style.display='flex';
+             dashbord.style.display='none'
+             compte_connecter.style.display= 'none';
+             page_inscrip.style.display='none'; 
+             page_desoffres.style.display='block';
+             page_contact.style.display='none';}); 
+             
+            btn_compte.addEventListener('click', ()=>{
+                header_menu_conn.style.display='none';
+                compte_connecter.style.display= 'block';
+                page_pub_annonce.style.display = 'none';
+                page_contenaire.style.display = 'none';
+                btn_inscrire.style.display = 'none';
+                btn_voirplus.style.display = 'none';
+                btn_publier.style.display= 'none';
+                h2.style.display ='none';
+                h3.style.display ='none';
+                h4.style.display ='none';
+                h5.style.display ='none';
+                div_communauter.style.display= 'none';
+                div_marketing.style.display= 'none';
+                div_propriete.style.display='none';
+                div_recherche.style.display= 'none'; 
+                div_footer.style.display = 'none';
+                div_header.style.display ='block';
+                page_inscrip.style.display='none';
+                page_connexion.style.display ='none';
+                page_offres.style.display='none';
+                dashbord.style.display='none';
+                page_inscrip.style.display='none'; 
+                page_offres.style.display='none';
+                page_desoffres.style.display='none';
+                page_contact.style.display='none';
+            });
+
+            btn_voirplus_conn.addEventListener('click', ()=>{
+                header_menu_conn.style.display='none';
+                compte_connecter.style.display= 'none';
+                page_pub_annonce.style.display = 'none';
+                page_contenaire.style.display = 'none';
+                btn_inscrire.style.display = 'none';
+                btn_voirplus.style.display = 'none';
+                btn_publier.style.display= 'none';
+                h2.style.display ='none';
+                h3.style.display ='none';
+                h4.style.display ='none';
+                h5.style.display ='none';
+                div_communauter.style.display= 'none';
+                div_marketing.style.display= 'none';
+                div_propriete.style.display='none';
+                div_recherche.style.display= 'none'; 
+                div_footer.style.display = 'none';
+                page_inscrip.style.display='none';
+                page_connexion.style.display ='none';
+                page_offres.style.display='none';
+                dashbord.style.display='none';
+                page_inscrip.style.display='none'; 
+                page_offres.style.display='none';
+                page_desoffres.style.display='none'
+                div_header.style.display ='block';
+                page_inscrip.style.display='none';
+                page_connexion.style.display ='none';
+                page_offres.style.display='block';
+                page_offres.style.display='block';
+                page_offres.style.display='flex';
+                dashbord.style.display='none'
+                compte_connecter.style.display= 'none'; 
+                page_desoffres.style.display='block';
+                page_contact.style.display='none';
+            });
+
+
+            btn_deconn.addEventListener('click', ()=>{
+                   header_menu_conn.style.display='none';
+                   const popup = document.createElement('div');
+                   popup.classList.add('popup-center');
+                   popup.style.display='block';
+                   popup.style.marginTop='-300px';
+                   popup.style.marginLeft='35%';
+                   popup.style.position='absolute';
+                   popup.style.padding='20px';
+                   popup.style.backgroundColor='white';
+                   popup.style.width='350px';
+                   popup.style.border='1px solid black';
+                   const contentpop=document.createElement('div');
+                   contentpop.classList.add('popup-content');
+                   const msg_pop= document.createElement('p');
+                   msg_pop.textContent = "Vous etes sur de vouloir etre deconnecter ?"
+                   const btn_fermer= document.createElement('button');
+                   btn_fermer.classList.add('popup-button'); 
+                   btn_fermer.textContent='Fermer';
+                   btn_fermer.style.backgroundColor='skyblue';
+                   btn_fermer.style.borderRadius='10px';
+                   btn_fermer.style.padding='3px';
+                   btn_fermer.style.border='1px solid black'
+                   
+
+                   contentpop.appendChild(msg_pop);
+                   contentpop.appendChild(btn_fermer);
+                   popup.appendChild(contentpop)
+
+                   dashbord.appendChild(popup);
+                   setTimeout(() => {
+                        popup.style.display = 'block';
+                        }, 3000);
+                    
+
+                    btn_fermer.addEventListener('click', ()=>{
+                        popup.style.display='none';
+                    });
+                    window.location.reload();
+
+
+             });
+        
+            function rec_pub() {
+                    form_pub.addEventListener('submit', async (e) => {
+                        e.preventDefault();
+                        const image = document.querySelector('#image').files[0];
+                        const status = document.querySelector('#status1').value;
+                        const prix = document.querySelector('#prix1').value;
+                        const contact = document.querySelector('#contact1').value;
+                        const localisation = document.querySelector('#localisation1').value;
+                        const information = document.querySelector('#information1').value;
+                        const nom_utilisateur = pseudo;
+
+                        if (image != '' || status != '' || prix != '' || contact != '' || information != '' || localisation != '') {
+                            const db = getDatabase();
+                            const storage = getStorage();
+                            const userRef = ref(db, 'publications/' + nom_utilisateur);
+                            const newPostRef = push(userRef);
+
+                            // Générez un identifiant unique pour l'image
+                            const imageId = Date.now().toString();
+
+                            // Créez une référence pour l'image dans Firebase Storage
+                            const imageRef = sRef(storage, 'images/' + imageId + '.jpg');
+
+                            // Stockez l'image dans Firebase Storage
+                            await uploadBytes(imageRef, image);
+
+                            // L'URL de l'image est automatiquement généré par Firebase Storage
+                            const imageDownloadURL = await getDownloadURL(imageRef);
+
+                            // Stockez les autres données dans la base de données Realtime
+                            await set(newPostRef, {
+                                image: imageDownloadURL,
+                                status: status,
+                                prix: prix,
+                                contact: contact,
+                                localisation: localisation,
+                                information: information,
+                                nom_utilisateur: nom_utilisateur,
+                            });
+
+                            // L'annonce a été correctement enregistrée avec l'URL de l'image
+                               const popup = document.createElement('div');
+                                popup.classList.add('popup-center');
+                                popup.style.display='block';
+                                popup.style.marginTop='-300px';
+                                popup.style.marginLeft='35%';
+                                popup.style.position='absolute';
+                                popup.style.padding='20px';
+                                popup.style.backgroundColor='white';
+                                popup.style.width='350px';
+                                popup.style.border='1px solid black';
+                                const contentpop=document.createElement('div');
+                                contentpop.classList.add('popup-content');
+                                const msg_pop= document.createElement('p');
+                                msg_pop.textContent = "Publication réussis !"
+                                const btn_fermer= document.createElement('button');
+                                btn_fermer.classList.add('popup-button');
+                                btn_fermer.textContent='Fermer';
+                                btn_fermer.style.backgroundColor='skyblue';
+                                btn_fermer.style.borderRadius='10px';
+                                btn_fermer.style.padding='3px';
+                                btn_fermer.style.border='1px solid black'
+                                                
+                                contentpop.appendChild(msg_pop);
+                                contentpop.appendChild(btn_fermer);
+                                popup.appendChild(contentpop)
+
+                                form_pub.appendChild(popup);
+                                setTimeout(() => {
+                                        popup.style.display = 'block';
+                                        }, 3000);
+                                        
+
+                                btn_fermer.addEventListener('click', ()=>{
+                                    popup.style.display='none';
+                                    });
+                            
+                            // Le reste de votre code pour afficher la confirmation
+                        }
+                    });
+            } 
+
+
+
+            const publication_page = document.querySelector('#contenaire_dashbord');
+
+                function displayAllPublications() {
+                    const db = getDatabase();
+                    const publicationsRef = ref(db, 'publications'); // Ne spécifiez pas de clé utilisateur ici
+
+                    onValue(publicationsRef, (snapshot) => {
+                        // Effacez le conteneur des publications avant de l'actualiser
+                        publication_page.innerHTML = '';
+                        // Parcourez toutes les publications du pseudo actuel
+                        snapshot.forEach((publicationSnapshot) => {
+                        const publicationData = publicationSnapshot.val();
+
+                        // Parcourez les clés uniques de chaque publication
+                        for (const key in publicationData) {
+                            if (publicationData.hasOwnProperty(key)) {
+                            const publication = publicationData[key];
+                            // Appeler la fonction pour afficher la publication
+                            displayPublication(publication);
+                            }
+                        }
+                        });
+                            
+                    }, (error) => {
+                        console.error('Erreur lors de la récupération des publications :', error);
+                    });
+                    }
+               // Fonction pour afficher une carte de publication
+                function displayPublication(publicationData) {
+                    const card = document.createElement('div');
+                    card.classList.add('offre');
+
+                    card.innerHTML = `
+                         <img src="${publicationData.image}" alt="Image de la publication">
+                         <h2>${publicationData.status}</h2>
+                         <p>Prix : ${publicationData.prix}</p>
+                         <p>Contact : ${publicationData.contact}</p>
+                         <p>Localisation : ${publicationData.localisation}</p>
+                         <p>Informations: ${publicationData.information}</p>
+                         `;
+
+                    // Ajoutez la carte au conteneur des publications
+                    publication_page.appendChild(card);
+                };
+            // La fonction showDetails reste inchangée
+
+            // Appelez la fonction pour afficher toutes les publications au chargement de la page
+            displayAllPublications();
+
+            function rechercher() {
+                btn_search_conn.addEventListener('click', () => {
+                    const search_conn = document.querySelector('#search_conn');
+                    const recherche = search_conn.value.toLowerCase();
+
+                    const db = getDatabase();
+                    const publicationsRef = ref(db, 'publications');
+
+                    onValue(publicationsRef, (snapshot) => {
+                    // Effacez les résultats précédents
+                    publication_page.innerHTML = '';
+                    let resultatTrouve = false;
+
+                    snapshot.forEach((publicationSnapshot) => {
+                        const publicationData = publicationSnapshot.val();
+                        for (const key in publicationData) {
+                        if (publicationData.hasOwnProperty(key)) {
+                            const publication = publicationData[key];
+                            // Vérifiez si la publication correspond à la recherche
+                            if (
+                            publication.localisation.toLowerCase() === recherche ||
+                            publication.status.toLowerCase() === recherche ||
+                            publication.prix.toLowerCase() === recherche
+                            ) {
+                            // Appeler la fonction pour afficher la publication
+                            displayOffer(publication);
+                            resultatTrouve = true;
+                            }
+                        }
+                        }
+                    });
+
+                    // Si aucun résultat n'est trouvé, affichez un message approprié
+                    if (!resultatTrouve) {
+                        publication_page.innerHTML = 'Aucun résultat trouvé...';
+                    }
+                    });
+                });
+            }
+
+            function displayOffer(publicationData){
+                const card = document.createElement('div');
+                card.classList.add('offre');
+
+                card.innerHTML = `
+                         <img src="${publicationData.image}" alt="Image de la publication">
+                         <h2>${publicationData.status}</h2>
+                         <p>Prix : ${publicationData.prix}</p>
+                         <p>Contact : ${publicationData.contact}</p>
+                         <p>Localisation : ${publicationData.localisation}</p>
+                         <p>Informations: ${publicationData.information}</p>
+                        `;
+
+                // Ajoutez la carte au conteneur des publications
+                publication_page.appendChild(card);
+            };
+            
+            rechercher();
+            rec_pub()
+          }
+          else{
+            
+             const popup = document.createElement('div');
+             popup.classList.add('popup-center');
+             popup.style.display='block';
+             popup.style.marginTop='-300px';
+             popup.style.marginLeft='35%';
+             popup.style.position='absolute';
+             popup.style.padding='20px';
+             popup.style.backgroundColor='white';
+             popup.style.width='350px';
+             popup.style.border='1px solid black';
+             const contentpop=document.createElement('div');
+             contentpop.classList.add('popup-content');
+             const msg_pop= document.createElement('p');
+             msg_pop.textContent = "Veuillez-vous inscrire pour se connecter SVP!"
+             const btn_fermer= document.createElement('button');
+             btn_fermer.classList.add('popup-button');s
+             btn_fermer.textContent='Fermer';
+             btn_fermer.style.backgroundColor='skyblue';
+             btn_fermer.style.borderRadius='10px';
+             btn_fermer.style.padding='3px';
+             btn_fermer.style.border='1px solid black'
+                            
+             contentpop.appendChild(msg_pop);
+             contentpop.appendChild(btn_fermer);
+             popup.appendChild(contentpop)
+
+             page_connexion.appendChild(popup);
+             setTimeout(() => {
+                    popup.style.display = 'block';
+                    }, 3000);
+                    
+
+            btn_fermer.addEventListener('click', ()=>{
+                popup.style.display='none';
+                });
+          }
+         } 
+         else {
+              alert("Nom d'utilisateur ou mot de pass invalide !")
+                };
+            })
+        });
+}
+connexion();
+inscription();
+afficheroffre();
+afficheracceuil();
+rechercher_acceuil()
+
+</script>
+</body>
+</html>
+
+
